@@ -1,2 +1,5 @@
 ## GoProject
-'Its will be server with game' 
+## Owner
+- I'am
+###Description
+"Its will be server with game"
