@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package api;
+
+service Fighter{
+    rpc fight(FightRequest) returns (FightRespons) {}
+}
+
+message FightRequest {
+    int 32 x = 1;
+    int 32 y = 2;
+}
+
+message FightRespons{
+    int 32 result = 1;
+}
